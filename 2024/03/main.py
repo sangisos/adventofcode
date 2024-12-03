@@ -17,9 +17,8 @@ def main():
 	for m in r2:
 		x, y = [int(n) for n in m.strip("mul(").strip(")").split(",")]
 		s2 += x * y
-
-	print("Part 1:", s1, "Part 2:", s2)
 	
+	print("Part 1:", s1, "Part 2:", s2)
+
 if __name__ == "__main__":
 	main()
-
